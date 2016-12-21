@@ -4,8 +4,8 @@
 
 class Ecs < Formula
   desc "Login to ECS instance or container by ECS service name"
-  homepage "https://github.com/suhirotaka/homebrew-ecs-login"
-  url "https://github.com/suhirotaka/homebrew-ecs-login/raw/master/ecs-login.tar.gz"
+  homepage "https://github.com/suhirotaka/homebrew-ecslogin"
+  url "https://github.com/suhirotaka/homebrew-ecslogin/raw/master/ecslogin.tar.gz"
   version "1.0.0"
   sha256 "d379e4de8a8296d35df4ee69dc347db703ff3273188f341eb7205fb99bcddb37"
 
