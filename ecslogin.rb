@@ -2,7 +2,7 @@
 #                http://www.rubydoc.info/github/Homebrew/brew/master/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 
-class Ecs < Formula
+class Ecslogin < Formula
   desc "Login to ECS instance or container by ECS service name"
   homepage "https://github.com/suhirotaka/homebrew-ecslogin"
   url "https://github.com/suhirotaka/homebrew-ecslogin/raw/master/ecslogin.tar.gz"
