@@ -7,7 +7,7 @@ class Ecslogin < Formula
   homepage "https://github.com/suhirotaka/homebrew-ecslogin"
   url "https://github.com/suhirotaka/homebrew-ecslogin/raw/master/ecslogin.tar.gz"
   version "1.0.0"
-  sha256 "d379e4de8a8296d35df4ee69dc347db703ff3273188f341eb7205fb99bcddb37"
+  sha256 "fd8cd44302982eb461c277e72615d55cf9a35579702aca655c4e53faed823a54"
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components
