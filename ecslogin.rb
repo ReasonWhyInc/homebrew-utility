@@ -7,7 +7,7 @@ class Ecslogin < Formula
   homepage "https://github.com/suhirotaka/homebrew-ecslogin"
   url "https://github.com/suhirotaka/homebrew-ecslogin/raw/master/ecslogin.tar.gz"
   version "1.0.0"
-  sha256 "fd8cd44302982eb461c277e72615d55cf9a35579702aca655c4e53faed823a54"
+  sha256 "270a994b90a4e2d93d08f82ff43c1739c71b5ff5e7531217513856c0058710dd"
 
   # depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components
@@ -21,7 +21,15 @@ class Ecslogin < Formula
                           "--disable-silent-rules",
                           "--prefix=#{prefix}"
     # system "cmake", ".", *std_cmake_args
-    system "make", "install" # if this fails, try separate make/make install steps
+    # system "make", "install" # if this fails, try separate make/make install steps
+    system "make"
+    bin.install "ecslogin"
+  end
+
+  def caveats
+    msg = <<-EOF.undent
+ecslogin successfully installed.
+EOF
   end
 
   test do
@@ -34,6 +42,6 @@ class Ecslogin < Formula
     #
     # The installed folder is not in the path, so use the entire path to any
     # executables being tested: `system "#{bin}/program", "do", "something"`.
-    # system "false"
+     system "false"
   end
 end
