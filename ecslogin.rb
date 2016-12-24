@@ -22,7 +22,8 @@ class Ecslogin < Formula
     #                       "--prefix=#{prefix}"
     # system "cmake", ".", *std_cmake_args
     # system "make", "install" # if this fails, try separate make/make install steps
-    bin.install "ecs_login_by_service_name.sh"
+    system "mv", "ecs_login_by_service_name.sh", "ecslogin"
+    bin.install "ecslogin"
   end
 
   def caveats
