@@ -5,9 +5,9 @@
 class Cmdbm < Formula
   desc "Adds command bookmark functionality"
   homepage "https://github.com/suhirotaka/homebrew-shell-scripts"
-  url "https://github.com/suhirotaka/homebrew-shell-scripts/raw/master/command_bookmarks.sh.tar.gz"
+  url "https://github.com/suhirotaka/homebrew-shell-scripts/raw/master/shell/command_bookmarks.sh.tar.gz"
   version "1.0.0"
-  sha256 "39cb3011ba7a2f4b4a6d03154f70e62002479da7b3531cd9001ae845ea6d6af6"
+  sha256 "e261176b360ee650c2215a71b0861e979b8859a56163823cf338361cff3c93c4"
 
   # depends_on "cmake" => :build
   # depends_on :x11 # if your formula requires any X11/XQuartz components
