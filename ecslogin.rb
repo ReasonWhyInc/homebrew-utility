@@ -10,7 +10,7 @@ class Ecslogin < Formula
   sha256 "39cb3011ba7a2f4b4a6d03154f70e62002479da7b3531cd9001ae845ea6d6af6"
 
   # depends_on "cmake" => :build
-  depends_on :x11 # if your formula requires any X11/XQuartz components
+  # depends_on :x11 # if your formula requires any X11/XQuartz components
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
