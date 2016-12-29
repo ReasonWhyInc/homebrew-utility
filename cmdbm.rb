@@ -4,8 +4,8 @@
 
 class Cmdbm < Formula
   desc "Adds command bookmark functionality"
-  homepage "https://github.com/suhirotaka/homebrew-shell-scripts"
-  url "https://github.com/suhirotaka/homebrew-shell-scripts/raw/master/shell/command_bookmarks.sh.tar.gz"
+  homepage "https://github.com/suhirotaka/homebrew-utility"
+  url "https://github.com/suhirotaka/homebrew-utility/raw/master/shell/command_bookmarks.sh.tar.gz"
   version "1.0.0"
   sha256 "e261176b360ee650c2215a71b0861e979b8859a56163823cf338361cff3c93c4"
 
