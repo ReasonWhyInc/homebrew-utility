@@ -6,8 +6,8 @@ class Ecslogin < Formula
   desc "Login to ECS instance or container by ECS service name"
   homepage "https://github.com/suhirotaka/homebrew-utility"
   url "https://github.com/suhirotaka/homebrew-utility/raw/master/shell/ecs_login_by_service_name.sh.tar.gz"
-  version "1.0.1"
-  sha256 "3bedfe9a4a163264397207c4903f18716599fd3110912db26e97bc4f503012c7"
+  version "1.0.2"
+  sha256 "1fd4cec9c865bc42fa1dc08d515820ff0cf45a2fd224c6a37510a4037cf3e583"
 
   # depends_on "cmake" => :build
   # depends_on :x11 # if your formula requires any X11/XQuartz components
