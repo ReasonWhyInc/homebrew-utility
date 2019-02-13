@@ -118,7 +118,7 @@ if [ -z "$task_arns" ]; then
   echo 'Error: no ECS tasks found. (wrong cluster name?)'
   exit 1
 fi
-task_ids=$(echo $task_arns | sed -e 's/"[^"\/]*\/\([^"\/]*\)"/\1/g')
+task_ids=$(echo $task_arns | sed -e 's/"[^"\/]*\/\('$CLUSTER_NAME'\/\)\?\([^"\/]*\)"/\2/g')
 tasks_json=$(aws ecs describe-tasks --output json --cluster $CLUSTER_NAME --tasks $task_ids | jq .tasks)
 if [ -z "$tasks_json" ]; then
   echo 'Error: desired ECS tasks not found.'
